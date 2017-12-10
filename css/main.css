@@ -3,10 +3,12 @@
 
 body {
     margin: 40px;
-    background-image: url(../images/desert.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #9e6f3a;
+}
+.bg {
+  background-image: url(../images/desert.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #9e6f3a;
 }
 
   /* TESTING CSS GRID WITH A CAMEL */
