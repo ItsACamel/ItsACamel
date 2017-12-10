@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 40px;
+    background-image: url(../images/desert.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #9e6f3a;
+}
+
+  /* TESTING CSS GRID WITH A CAMEL */
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+  }
+  
+  .wrapper .box {
+    color: rgb(167, 109, 35);
+    font-family: Helvetica;
+    font-weight:bold;
+    border-radius: 2px;
+    padding: 20px;
+    font-size: 200%;
+    text-align: center;
+  }
+
+  .camel {
+    margin: 30px 20%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+  
+  .camel .box {
+    border-radius: 2px;
+    font-size: 150%;
+  }
+
+  /* img{ 
+    transform-origin:50% 50%;
+    animation:3.5s rotateLeft infinite linear; 
+}
+
+@keyframes rotateLeft{
+    100%{ transform:rotate(-360deg); }
+} */
